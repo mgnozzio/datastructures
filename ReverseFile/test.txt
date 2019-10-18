@@ -1,0 +1,5 @@
+this file
+has multiple lines
+but if your program
+works correctly, the output
+will be on a single line.
