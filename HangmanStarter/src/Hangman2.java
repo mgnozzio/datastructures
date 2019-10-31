@@ -19,7 +19,6 @@ public class Hangman2 extends WindowController  implements KeyListener{
 	protected Text puzzle;
 	protected Gallows gallows;
 	
-	protected static final int MAX_INCORRECT = 4;
 	protected static final int WINDOW_SIZE = 600;
 	protected static final int TEXT_OFFSET = 10;
 	protected static final int PUZZLE_OFFSET = 120;
@@ -99,7 +98,7 @@ public class Hangman2 extends WindowController  implements KeyListener{
     }
     
     public void onMousePress(Location point) {
-    	if (button.contains(point) && ! word.isEmpty()) {
+    	if (button.contains(point) && !button.isHidden() && ! word.isEmpty()) {
     		/* TODO:  Add logic to exit setup mode and
     		 * start gameplay
     		 */
