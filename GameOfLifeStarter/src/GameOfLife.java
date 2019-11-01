@@ -16,7 +16,7 @@ public class GameOfLife extends WindowController implements KeyListener {
 	public void begin() {
 		int yoffset = 0;
 		
-		/* The coordinate system of the grid is sthrown off slightly by
+		/* The coordinate system of the grid is thrown off slightly by
 		 * the existance of the system menu bar.  The code below figures out
 		 * the hight of the menu bar. The call to resize at the end of this
 		 * method takes this offset into account when making the whole grid
