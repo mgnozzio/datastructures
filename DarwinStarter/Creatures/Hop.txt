@@ -1,0 +1,9 @@
+Hop
+blue
+hop
+go 1
+
+
+This just hops forward blindly,
+it's good for testing that your program works at all.
+
