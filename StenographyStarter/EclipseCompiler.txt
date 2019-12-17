@@ -1,0 +1,2 @@
+30 Nov 2018 20:56:17 GMT: Log 'EclipseCompiler.txt' opened: 30 Nov 2018 20:56:17 GMT with name H:\CSA\Labs\Piloting\Steganography\StegStudentCode\EclipseCompiler.txt
+30 Nov 2018 20:56:48 GMT: Log 'EclipseCompiler.txt' opened: 30 Nov 2018 20:56:48 GMT with name H:\CSA\Labs\Piloting\Steganography\StegStudentCode\EclipseCompiler.txt
