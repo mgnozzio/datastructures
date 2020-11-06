@@ -8,7 +8,7 @@ public class FactoryExample extends WindowController {
 
 	public void begin() {
 		Image i = getImage("mothership.png");
-		GliderGun g = new GliderGun(i, START_POS, START_POS, canvas);
+		Mothership g = new Mothership(i, START_POS, START_POS, canvas);
 	}
 	
 	public static void main(String[] args) {
