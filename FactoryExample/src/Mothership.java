@@ -6,7 +6,13 @@ public class Mothership extends ActiveObject {
 	private VisibleImage image;
 	private DrawingCanvas c;
 	
-	public Mothership(DrawingCanvas c, int x, int y, int height, int width, Image i) {
+	public Mothership(Image i, int x, int y, DrawingCanvas c) {
+		image = new VisibleImage(i, x, y, c);
+		this.c = c;
+		start();
+	}
+	
+	public Mothership(Image i, int x, int y, int height, int width, DrawingCanvas c) {
 		image = new VisibleImage(i, x, y, height, width, c);
 		this.c = c;
 		start();
