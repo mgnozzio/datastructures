@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="STRUCTURE"/>
+	<classpathentry kind="var" path="OBJECTDRAW"/>
+	<classpathentry kind="lib" path="/Developer/eclipse/plugins/org.junit_3.8.1/junit.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
