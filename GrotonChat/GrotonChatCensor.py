@@ -55,7 +55,7 @@ def score(message:str) -> (str, float, float, str):
     polarity = 0
     # TODO: Check the needs_score variable to see if the
     # message needs to be scored.  If it does, call the
-    # get_adjustment function to determne the score
+    # get_adjustment function to determine the score
     if False:
         adjustment = 0
 
