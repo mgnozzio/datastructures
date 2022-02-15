@@ -19,7 +19,7 @@ def thread_receiving(my_socket, inbound_messages):
 def run():
     my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # Extra Credit Opportunity: Allow the user to specify
-    # the host IP address as a command line argument.
+    # a different IP address for the server
     host = "localhost" # "127.0.1.1"
     port = 8000
     my_socket.connect((host, port))

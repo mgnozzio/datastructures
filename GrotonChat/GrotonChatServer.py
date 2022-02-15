@@ -31,7 +31,7 @@ def listen_thread(client, broadcast_list):
             else:
                 broadcast(("["+username+":%0.2f] "%score).rjust(16) +  messages[0].ljust(40), broadcast_list)
                 for i in range(1, len(messages)):
-                    broadcast((" ").ljust(16) +  messages[i].ljust(40))
+                    broadcast((" ").ljust(16) +  messages[i].ljust(40), broadcast_list)
 
         else:
             print(f"client has been disconnected : {client}")
