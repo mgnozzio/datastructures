@@ -1,9 +1,9 @@
 import objectdraw.*;
 public class Timer extends ActiveObject{
 	
-	Text text;
-	double millis;
-	boolean running;
+	private Text text;
+	private double millis;
+	private boolean running;
 	
 	public Timer(int x, int y, DrawingCanvas canvas) {
 		millis = 0;
