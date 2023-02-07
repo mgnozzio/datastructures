@@ -3,6 +3,7 @@ import socket
 import threading
 import GrotonChatCensor
 from signal import signal, SIGPIPE, SIG_DFL
+import time
 
 def accept_loop(my_socket, broadcast_list):
     while True:
@@ -41,6 +42,7 @@ def listen_thread(client, broadcast_list):
 def broadcast(message, broadcast_list):
     for client in broadcast_list:
         try:
+            time.sleep(0.01)
             client.send(message.encode())
         except Exception as e:
             print(e)
