@@ -1,7 +1,7 @@
 import requests
 import json
 
-SENTIM = "https://sentim-api.herokuapp.com/api/v1/"
+SENTIM = "https://sentim-api.onrender.com/api/v1/"
 
 # TODO: Add elements to each of the lists below.  Then
 # good_things list should contain strings relevant to Groton.
