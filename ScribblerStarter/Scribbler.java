@@ -143,5 +143,10 @@ implements ActionListener {
       modeLabel.setText("Current mode: moving");
     }
   }
+  
+  public static void main(String[] args){
+  	Scribbler s =  new Scribbler();
+  	s.startController(600,600);
+  }
 
 }

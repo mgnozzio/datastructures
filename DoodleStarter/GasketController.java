@@ -26,4 +26,9 @@ public class GasketController extends WindowController {
 		current = l;
 	}
 	
+		public static void main(String[] args){
+		GasketController g = new GasketController();
+		g.startController(600,600);
+	}
+	
 }
